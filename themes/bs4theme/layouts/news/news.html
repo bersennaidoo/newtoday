@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="container">
+    <div class="row m-t-2 m-b-2">
+        <div class="col-md-12">
+            <h1>{{ .Title }}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis iure tempora totam fuga reprehenderit, vel harum nobis molestias inventore facere, laboriosam veritatis! Dignissimos id pariatur tempore, esse numquam deleniti facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, sit? Rerum sint repellendus, eligendi, doloribus dolorem sed explicabo unde quibusdam consectetur molestiae, inventore perspiciatis praesentium omnis vel! Ad, repellat architecto?</p>
+        </div>
+    </div>
+    <div class="row m-t-2">
+        <div class="col-md-8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, esse? Dolores, et reiciendis excepturi nostrum pariatur nobis veritatis? Exercitationem veniam error et omnis facilis quia molestiae dolore delectus adipisci suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aut cumque magnam sed distinctio odit, magni rem cum atque quibusdam id perspiciatis, deleniti ad! Dignissimos doloribus quaerat ducimus! Eum, architecto?</p>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+            <p>sidebar</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt excepturi molestias non? Laborum eius quia autem minus voluptates tempora vero explicabo, harum asperiores beatae delectus nemo ipsum, suscipit tenetur. Exercitationem? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, a qui aut repellendus, voluptatum minus quisquam animi cum ex dolorum rem quos ut aliquam dignissimos facilis? Quos cupiditate reprehenderit assumenda.</p>
+        </div>
+    </div>
+    <div class="row m-t-3">
+        <div class="col-md-12">
+            {{ partial "mailing-list.html" . }}
+        </div>
+    </div>
+</div>
+{{ end }}

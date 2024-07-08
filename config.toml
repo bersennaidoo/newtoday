@@ -2,3 +2,29 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "bs4theme"
+
+[[menus.main]]
+identifier = "Home"
+name = "Home"
+url = "/"
+weight = 100
+
+[[menus.main]]
+identifier = "About"
+name = "About"
+url = "/about"
+weight = 200
+
+[[menus.main]]
+identifier = "Contact"
+name = "Contact"
+url = "/contact"
+weight = 300
+
+[[menus.main]]
+identifier = "News"
+name = "News"
+url = "/news"
+weight = 400
+
+

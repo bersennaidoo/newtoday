@@ -1,7 +1,24 @@
 {{ define "main" }}
-  {{ .Content }}
-  {{ range site.RegularPages }}
+<div class="container">
+  <div class="row m-t-3">
+    <div class="col-md-12">
+      <h1>News Today</h1>
+    </div>
+  </div>
+  <div class="row m-t-3">
+    <div class="col-md-8">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A impedit, ut vitae error, temporibus sit possimus, qui quasi dolor neque non unde est. Illo fuga cupiditate tenetur totam perferendis illum.</p>
+    </div>
+    <div class="col-md-4 d-none d-md-block">
+     {{ range site.RegularPages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+     {{ end }}
+    </div>
+  </div>
+  <div class="row m-t-3">
+    <div class="col-md-12">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eos rem natus provident non omnis sequi eligendi enim dolore? Dolorum ea ratione a dolores pariatur voluptate odio beatae eius asperiores?</p>
+    </div>
+  </div>
+</div>
 {{ end }}
